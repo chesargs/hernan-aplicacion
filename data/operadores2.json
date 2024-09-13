@@ -1,0 +1,55 @@
+[
+    {
+        "id_operador": 456,
+        "nombre": "Carlos Martinez",
+        "email": "carlos.martinez@example.com",
+        "estado": true,
+        "rol": "operador",
+        "inversiones": [
+            {
+                "id_inversion": 1,
+                "fecha_inversion": "2024-01-10",
+                "monto": 50000
+            },
+            {
+                "id_inversion": 2,
+                "fecha_inversion": "2024-02-15",
+                "monto": 50000
+            }
+        ],
+        "rendiciones": [
+            {
+                "id_rendicion": 1,
+                "fecha_rendicion": "2024-03-01",
+                "monto": 5000
+            }
+        ],
+        "prestamos_emitidos": [
+            1, 3, 5
+        ]
+    },
+    {
+        "id_operador": 457,
+        "nombre": "Ana Lopez",
+        "email": "ana.lopez@example.com",
+        "estado": false,
+        "rol": "admin",
+        "inversiones": [
+            {
+                "id_inversion": 1,
+                "fecha_inversion": "2024-02-01",
+                "monto": 150000
+            }
+        ],
+        "rendiciones": [
+            {
+                "id_rendicion": 1,
+                "fecha_rendicion": "2024-03-01",
+                "monto": 10000
+            }
+        ],
+        "prestamos_emitidos": [
+            2, 4
+        ]
+    }
+]

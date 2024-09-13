@@ -1,0 +1,47 @@
+[
+    {
+        "id_prestamo": 1,
+        "monto": 50000,
+        "tasa": 0.05,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-02-20",
+        "plazo": 10,
+        "unidad": "dias",
+        "id_cliente": 123,
+        "id_operador": 456,
+        "estado": "activo",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 2,
+        "monto": 75000,
+        "tasa": 0.04,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-01-15",
+        "plazo": 30,
+        "unidad": "dias",
+        "id_cliente": 124,
+        "id_operador": 457,
+        "estado": "vencido",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-02-10",
+                "monto": 7500
+            }
+        ]
+    },
+    {
+        "id_prestamo": 3,
+        "monto": 60000,
+        "tasa": 0.045,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-03-01",
+        "plazo": 15,
+        "unidad": "dias",
+        "id_cliente": 123,
+        "id_operador": 456,
+        "estado": "activo",
+        "cobros": []
+    }
+]

@@ -1,0 +1,234 @@
+[
+    {
+        "id_cliente": 123,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juan.perez@example.com",
+        "estado": true,
+        "prestamos_asociados": [1, 3]
+    },
+    {
+        "id_cliente": 124,
+        "nombre": "Carlos",
+        "apellido": "Martinez",
+        "email": "carlos.martinez@example.com",
+        "estado": true,
+        "prestamos_asociados": [6]
+    },
+    {
+        "id_cliente": 125,
+        "nombre": "Maria",
+        "apellido": "Lopez",
+        "email": "maria.lopez@example.com",
+        "estado": true,
+        "prestamos_asociados": [7]
+    },
+    {
+        "id_cliente": 126,
+        "nombre": "Pedro",
+        "apellido": "Gomez",
+        "email": "pedro.gomez@example.com",
+        "estado": true,
+        "prestamos_asociados": [8]
+    },
+    {
+        "id_cliente": 127,
+        "nombre": "Luis",
+        "apellido": "Ramirez",
+        "email": "luis.ramirez@example.com",
+        "estado": true,
+        "prestamos_asociados": [9]
+    },
+    {
+        "id_cliente": 128,
+        "nombre": "Ana",
+        "apellido": "Sanchez",
+        "email": "ana.sanchez@example.com",
+        "estado": true,
+        "prestamos_asociados": [10]
+    },
+    {
+        "id_cliente": 129,
+        "nombre": "Roberto",
+        "apellido": "Diaz",
+        "email": "roberto.diaz@example.com",
+        "estado": true,
+        "prestamos_asociados": [11]
+    },
+    {
+        "id_cliente": 130,
+        "nombre": "Elena",
+        "apellido": "Garcia",
+        "email": "elena.garcia@example.com",
+        "estado": true,
+        "prestamos_asociados": [12]
+    },
+    {
+        "id_cliente": 131,
+        "nombre": "Julian",
+        "apellido": "Fernandez",
+        "email": "julian.fernandez@example.com",
+        "estado": true,
+        "prestamos_asociados": [13]
+    },
+    {
+        "id_cliente": 132,
+        "nombre": "Paula",
+        "apellido": "Moreno",
+        "email": "paula.moreno@example.com",
+        "estado": true,
+        "prestamos_asociados": [14]
+    },
+    {
+        "id_cliente": 133,
+        "nombre": "Miguel",
+        "apellido": "Suarez",
+        "email": "miguel.suarez@example.com",
+        "estado": true,
+        "prestamos_asociados": [15]
+    },
+    {
+        "id_cliente": 134,
+        "nombre": "Isabel",
+        "apellido": "Ortega",
+        "email": "isabel.ortega@example.com",
+        "estado": true,
+        "prestamos_asociados": [16]
+    },
+    {
+        "id_cliente": 135,
+        "nombre": "Daniel",
+        "apellido": "Navarro",
+        "email": "daniel.navarro@example.com",
+        "estado": true,
+        "prestamos_asociados": [17]
+    },
+    {
+        "id_cliente": 136,
+        "nombre": "Sofia",
+        "apellido": "Vargas",
+        "email": "sofia.vargas@example.com",
+        "estado": true,
+        "prestamos_asociados": [18]
+    },
+    {
+        "id_cliente": 137,
+        "nombre": "Raul",
+        "apellido": "Molina",
+        "email": "raul.molina@example.com",
+        "estado": true,
+        "prestamos_asociados": [19]
+    },
+    {
+        "id_cliente": 138,
+        "nombre": "Victoria",
+        "apellido": "Pena",
+        "email": "victoria.pena@example.com",
+        "estado": true,
+        "prestamos_asociados": [20]
+    },
+    {
+        "id_cliente": 139,
+        "nombre": "Javier",
+        "apellido": "Cruz",
+        "email": "javier.cruz@example.com",
+        "estado": true,
+        "prestamos_asociados": [21]
+    },
+    {
+        "id_cliente": 140,
+        "nombre": "Monica",
+        "apellido": "Reyes",
+        "email": "monica.reyes@example.com",
+        "estado": true,
+        "prestamos_asociados": [22]
+    },
+    {
+        "id_cliente": 141,
+        "nombre": "Hector",
+        "apellido": "Torres",
+        "email": "hector.torres@example.com",
+        "estado": true,
+        "prestamos_asociados": [23]
+    },
+    {
+        "id_cliente": 142,
+        "nombre": "Teresa",
+        "apellido": "Ramos",
+        "email": "teresa.ramos@example.com",
+        "estado": true,
+        "prestamos_asociados": [24]
+    },
+    {
+        "id_cliente": 143,
+        "nombre": "Alberto",
+        "apellido": "Flores",
+        "email": "alberto.flores@example.com",
+        "estado": true,
+        "prestamos_asociados": [25]
+    },
+    {
+        "id_cliente": 144,
+        "nombre": "Gloria",
+        "apellido": "Castillo",
+        "email": "gloria.castillo@example.com",
+        "estado": true,
+        "prestamos_asociados": [26]
+    },
+    {
+        "id_cliente": 145,
+        "nombre": "Diego",
+        "apellido": "Herrera",
+        "email": "diego.herrera@example.com",
+        "estado": true,
+        "prestamos_asociados": [27]
+    },
+    {
+        "id_cliente": 146,
+        "nombre": "Carmen",
+        "apellido": "Rivera",
+        "email": "carmen.rivera@example.com",
+        "estado": true,
+        "prestamos_asociados": [28]
+    },
+    {
+        "id_cliente": 147,
+        "nombre": "Francisco",
+        "apellido": "Mendoza",
+        "email": "francisco.mendoza@example.com",
+        "estado": true,
+        "prestamos_asociados": [29]
+    },
+    {
+        "id_cliente": 148,
+        "nombre": "Patricia",
+        "apellido": "Ortiz",
+        "email": "patricia.ortiz@example.com",
+        "estado": true,
+        "prestamos_asociados": [30]
+    },
+    {
+        "id_cliente": 149,
+        "nombre": "Oscar",
+        "apellido": "Santos",
+        "email": "oscar.santos@example.com",
+        "estado": true,
+        "prestamos_asociados": [31]
+    },
+    {
+        "id_cliente": 150,
+        "nombre": "Andrea",
+        "apellido": "Lozano",
+        "email": "andrea.lozano@example.com",
+        "estado": true,
+        "prestamos_asociados": [32]
+    },
+    {
+        "id_cliente": 151,
+        "nombre": "Chuqui",
+        "apellido": "Lozano",
+        "email": "chuqui.lozano@example.com",
+        "estado": true,
+        "prestamos_asociados": [33]
+    }
+]

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Préstamo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">Panel Financiero</h1>
+    
+            <!-- Menú hamburguesa para pantallas pequeñas -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <!-- Menú de navegación normal para pantallas grandes -->
+            <nav id="nav-menu">
+                <div class="nav-item"><a href="index.html">Inicio</a></div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Préstamos</a>
+                    <div class="dropdown-menu">
+                        <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                        <a href="prestamos_personales.html">Préstamos Personales</a>
+                        <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                        <a href="vencidos.html">Vencidos</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Caja e Inversiones</a>
+                    <div class="dropdown-menu">
+                        <a href="hoja_diaria.html">Hoja Diaria</a>
+                        <a href="inversiones.html">Inversiones</a>
+                        <a href="caja.html">Caja</a>
+                    </div>
+                </div>
+            </nav>
+    
+            <!-- Menú desplegable en pantallas pequeñas -->
+            <div class="mobile-nav" id="mobile-nav">
+                <a href="index.html">Inicio</a>
+                <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                <a href="prestamos_personales.html">Préstamos Personales</a>
+                <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                <a href="vencidos.html">Vencidos</a>
+                <a href="hoja_diaria.html">Hoja Diaria</a>
+                <a href="inversiones.html">Inversiones</a>
+                <a href="caja.html">Caja</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="loan-details card">
+                <h2>Detalles del Préstamo</h2>
+                <div class="info-box">
+                    <h3>Información del Préstamo</h3>
+                    <p>Cliente: <span id="client-name">N/A</span></p>
+                    <p>Monto: <span id="loan-amount">N/A</span></p>
+                    <p>Tasa: <span id="loan-rate">N/A</span></p>
+                    <p>Fecha de Inicio: <span id="loan-start-date">N/A</span></p>
+                    <p>Plazo: <span id="loan-term">N/A</span></p>
+                    <p>Estado: <span id="loan-status">N/A</span></p>
+                </div>
+                <div class="info-box">
+                    <h3>Información del Operador</h3>
+                    <p>Nombre: <span id="operator-name">N/A</span></p>
+                    <p>Email: <span id="operator-email">N/A</span></p>
+                    <p>Rol: <span id="operator-role">N/A</span></p>
+                    <p>Estado: <span id="operator-status">N/A</span></p>
+                </div>
+                <div class="payments-section">
+                    <h3>Pagos Realizados</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fecha de Pago</th>
+                                <th>Monto</th>
+                                <th>Tipo de Pago</th>
+                            </tr>
+                        </thead>
+                        <tbody id="payments-body">
+                            <!-- Paid payments will be populated here -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- New section for Pagos a Cobrar -->
+                <div class="payments-section">
+                    <h3>Montos a Cobrar</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fecha de Pago</th>
+                                <th>Monto</th>
+                                <th>Tipo de Pago</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pending-payments-body">
+                            <!-- Pending payments will be populated here -->
+                        </tbody>
+                    </table>
+                </div>
+                    <div class="buttons-container">
+                        <button id="edit-loan-button">Editar Préstamo</button>
+                        <button id="edit-loan-button">Agregar Pago</button>
+                    </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Panel Financiero.</p>
+        </div>
+    </footer>
+    <script src="js/detalle_prestamo.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>

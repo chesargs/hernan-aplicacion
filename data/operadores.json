@@ -1,0 +1,110 @@
+[
+    {
+        "id_operador": 457,
+        "nombre": "Jose",
+        "email": "jose.hernan@example.com",
+        "estado": "false",
+        "rol": "Admin",
+        "inversiones": [
+            {
+                "id_inversion": 3,
+                "monto": 25000,
+                "fecha": "2024-09-10"
+            }
+        ],
+        "rendiciones": [],
+        "prestamos_emitidos": [1, 7, 9, 10, 11, 12, 15, 21, 26],
+        "salidas_caja": [
+            {
+                "id_salida": 1,
+                "monto": 2000,
+                "fecha": "2024-09-13",
+                "descripcion": "Compra de suministros"
+            },
+            {
+                "id_salida": 2,
+                "monto": 500,
+                "fecha": "2024-09-14",
+                "descripcion": "Pago de servicios"
+            }
+        ]
+    },
+    {
+        "id_operador": 458,
+        "nombre": "Maria",
+        "email": "maria@example.com",
+        "estado": "true",
+        "rol": "Operador",
+        "inversiones": [
+            {
+                "id_inversion": 4,
+                "monto": 30000,
+                "fecha": "2024-09-09"
+            }
+        ],
+        "rendiciones": [],
+        "prestamos_emitidos": [3, 4, 8, 14, 18, 22, 24, 29, 30],
+        "salidas_caja": [
+            {
+                "id_salida": 3,
+                "monto": 3000,
+                "fecha": "2024-09-12",
+                "descripcion": "Mantenimiento de equipos"
+            }
+        ]
+    },
+    {
+        "id_operador": 459,
+        "nombre": "Carlos",
+        "email": "carlos@example.com",
+        "estado": "true",
+        "rol": "Operador",
+        "inversiones": [
+            {
+                "id_inversion": 5,
+                "monto": 45000,
+                "fecha": "2024-09-08"
+            }
+        ],
+        "rendiciones": [],
+        "prestamos_emitidos": [2, 13, 19, 20, 27, 28],
+        "salidas_caja": [
+            {
+                "id_salida": 4,
+                "monto": 4000,
+                "fecha": "2024-09-11",
+                "descripcion": "Pago de alquiler"
+            },
+            {
+                "id_salida": 5,
+                "monto": 1000,
+                "fecha": "2024-09-12",
+                "descripcion": "Compra de material de oficina"
+            }
+        ]
+    },
+    {
+        "id_operador": 460,
+        "nombre": "Luis",
+        "email": "luis@example.com",
+        "estado": "true",
+        "rol": "Operador",
+        "inversiones": [
+            {
+                "id_inversion": 6,
+                "monto": 50000,
+                "fecha": "2024-09-07"
+            }
+        ],
+        "rendiciones": [],
+        "prestamos_emitidos": [5, 6, 16, 17, 23, 25],
+        "salidas_caja": [
+            {
+                "id_salida": 6,
+                "monto": 3500,
+                "fecha": "2024-09-10",
+                "descripcion": "Gastos de transporte"
+            }
+        ]
+    }
+]

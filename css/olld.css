@@ -1,0 +1,1613 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f5f5, #ffffff);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    width: 100%;
+    background: #ff6600; /* Orange header background */
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-container h1 {
+    font-size: 24px;
+    font-weight: none;
+
+}
+
+header nav {
+    display: flex;
+    gap: 20px; /* Space between nav items */
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+header nav a i {
+    margin-right: 8px;
+}
+
+header nav a:hover {
+    color: #e65c00; /* Darker orange on hover */
+    text-decoration: underline;
+}
+
+/* Container Styles for Login Page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    min-height: calc(100vh - 80px); /* Adjust height to account for header and footer */
+    background: #f9f9f9;
+}
+
+/* Login Box Styles */
+.login-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid #e0e0e0;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.login-box:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Textbox Styles */
+.textbox {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.textbox input:focus {
+    border-color: #ff6600; /* Orange color for focus */
+    box-shadow: 0 0 8px rgba(255, 102, 0, 0.3); /* Orange shadow */
+    outline: none;
+}
+
+/* Error Message Styles */
+.error {
+    display: none;
+    color: #ff4d4d;
+    font-size: 12px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+/* Checkbox Styles */
+.checkbox {
+    margin-bottom: 20px;
+}
+
+.checkbox label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Button Styles */
+.btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #ff6600; /* Orange button background */
+    color: #fff;
+    border: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #e65c00; /* Darker orange on hover */
+    transform: translateY(-2px);
+}
+
+/* Links Styles */
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links a {
+    display: block;
+    color: #ff6600; /* Orange links */
+    text-decoration: none;
+    margin: 8px 0;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #e65c00; /* Darker orange on hover */
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    background: #ff6600; /* Orange footer background */
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between nav items */
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+footer nav a i {
+    margin-right: 8px;
+}
+
+footer nav a:hover {
+    color: #e65c00; /* Darker orange on hover */
+    text-decoration: underline;
+}
+
+/* Additional Styles for Other Page */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background: #f9f9f9;
+}
+
+/* Container for Financial Overview and Loans & Payments */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Financial Overview Styles */
+.financial-overview, .info-box, .loans-payments {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.financial-overview h2, .info-box h2, .loans-payments .section-header h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.info-box {
+    padding: 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.amount {
+    font-size: 26px;
+    color: #ff6600; /* Orange color for the amount */
+    font-weight: bold;
+}
+
+/* Loans & Payments Styles */
+.loans-payments {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-header {
+    border-bottom: 2px solid #ff6600; /* Orange border for section headers */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Dropdown Styles */
+#operator-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Button Styles */
+#render-button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #ff6600; /* Orange button background */
+    color: #fff;
+    border: none;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 20px; /* Space above the button */
+}
+
+#render-button:hover {
+    background: #e65c00; /* Darker orange on hover */
+    transform: translateY(-2px);
+}
+/* Financial Overview Styles */
+.total-amounts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.amount-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    text-align: center;
+}
+
+.amount-box h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.amount-box .amount {
+    font-size: 36px;
+    color: #ff6600; /* Orange color for the amount */
+    font-weight: bold;
+}
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ff6600;
+    color: white;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+#totals {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    padding: 10px;
+    background-color: #fff4e5;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+}
+
+/* Hover effect for table rows */
+table tbody tr:hover {
+    background-color: #f1f1f1; /* Light grey background on hover */
+    transform: scale(1.02);    /* Slightly enlarge the row */
+    transition: all 0.2s ease-in-out;
+}
+/* General table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ff6600;
+    color: white;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);    /* Slightly enlarge the row */
+    transition: all 0.2s ease-in-out;
+}
+
+#totals {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    padding: 10px;
+    background-color: #fff4e5;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+}
+/* General table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ff6600;
+    color: white;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);    /* Slightly enlarge the row */
+    transition: all 0.15s ease-in-out;
+}
+
+#totals {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: right;
+    padding: 10px;
+    background-color: #fff4e5;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+}
+#totals {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center; /* Center the text */
+    padding: 10px;
+    background-color: #fff4e5;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+    font-weight: bold; /* Make the text bold */
+}
+#totals {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    background-color: #fff4e5;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Operator Info Styles */
+.info-box {
+    padding: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    text-align: left;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#operator-info h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#operator-info p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+}
+
+/* Align the total money display in the center with larger font */
+#total-money-display {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    background: #fff4e5;
+    border: 1px solid #ff6600;
+    border-radius: 8px;
+}
+
+/* Style adjustments for the button */
+#render-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background: #ff6600;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#render-button:hover {
+    background: #e65c00;
+    transform: translateY(-2px);
+}
+
+/* Overall container padding and margin adjustments */
+.container {
+    padding: 20px;
+}
+
+.financial-overview {
+    padding: 20px;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.amount {
+    font-size: 28px;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* Dropdown alignment and styling */
+#operator-select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Center the totals at the top */
+#totals {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Default Header (for PC/Desktop) */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 40px;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: left;
+    color: white;
+    margin-bottom: 0; /* No margin on larger screens */
+    flex: none; /* Do not take full width on larger screens */
+}
+
+header nav {
+    display: flex;
+    gap: 20px; /* Space between nav items */
+    justify-content: flex-end; /* Align nav items to the right */
+    width: auto; /* Keep width auto on larger screens */
+}
+
+header nav a {
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive Header (for Mobile/Tablet) */
+@media (max-width: 768px) {
+    .header-container {
+        flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+        height: 40%;
+    }
+
+    header h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        /* flex: 1 100%; */
+        text-align: center;
+    
+    }
+
+    header nav {
+        justify-content: center; /* Center nav items on smaller screens */
+        flex-wrap: wrap; /* Allows nav items to wrap on smaller screens */
+        width: 100%; /* Takes full width on smaller screens */
+    }
+
+    header nav a {
+        font-size: 14px; /* Slightly smaller font on smaller screens */
+    }
+}
+/* Responsive Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    table-layout: fixed; /* Fixes table layout for responsiveness */
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; /* Ensures text doesn't overflow */
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevents text wrapping in table cells */
+}
+
+th {
+    background-color: #ff6600;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Make the table scrollable on small screens */
+@media (max-width: 768px) {
+    .card {
+        overflow-x: auto;
+    }
+
+    table th, table td {
+        white-space: nowrap;
+    }
+}
+/* Responsive Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    table-layout: fixed; /* Fixes table layout for responsiveness */
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; /* Ensures text doesn't overflow */
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevents text wrapping in table cells */
+}
+
+th {
+    background-color: #ff6600;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Make the table scrollable on small screens */
+@media (max-width: 768px) {
+    .card {
+        overflow-x: auto;
+    }
+
+    table th, table td {
+        white-space: nowrap;
+    }
+}
+/* Hide columns on small screens */
+@media (max-width: 768px) {
+    /* Hide the "Tasa", "Estado", and "Plazo" columns */
+    table th:nth-child(3),
+    table th:nth-child(5),
+    table th:nth-child(6),
+    table td:nth-child(3),
+    table td:nth-child(5),
+    table td:nth-child(6) {
+        display: none;
+    }
+}
+
+/* Container for the Edit Loan Page */
+.containers {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header for the Edit Loan Page */
+.editloanh1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff6600; /* Consistent with the orange used across the site */
+
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Darker text for labels */
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #f9f9f9;
+}
+
+/* Save Changes Button */
+.btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff6600; /* Orange button background */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #e65c00; /* Darker orange on hover */
+}
+
+/* Back Button */
+#back-button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #555; /* Grey background for differentiation */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#back-button:hover {
+    background-color: #333; /* Darker grey on hover */
+}
+
+/* General container styling for consistency across pages */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Page-specific header styles */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff6600;
+}
+
+/* Table styles for consistency across different pages */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #ff6600;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Form control styling */
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.form-control:focus {
+    border-color: #ff6600;
+    box-shadow: 0 0 8px rgba(255, 102, 0, 0.3);
+    outline: none;
+}
+
+/* Button styles */
+.btn, #back-button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 20px;
+}
+
+.btn:hover, #back-button:hover {
+    background-color: #e65c00;
+    transform: translateY(-2px);
+}
+/* General Header Styling */
+header {
+    width: 100%;
+    background: #ff6600; /* Orange background */
+    color: #fff;
+    padding: 10px 10px;
+    /*  */
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+
+/* Logo/Title Styling */
+.header-container a>h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-weight: bold;
+    flex: 1; /* Allows flexbox to adjust the width */
+}
+.header-container a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex: 1; /* Allows flexbox to adjust the width */
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 3; /* Flex-grow to allow the navigation to resize */
+    justify-content: space-around;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #f1f1f1;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ff6600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+/* Search Bar Styling */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1; /* Allows the search bar to resize within the header */
+    max-width: 300px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    outline: none;
+    flex: 1;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    color: #ff6600;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    color: #e65c00;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container a>h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .nav-item a {
+        font-size: 12px;
+    }
+}
+
+/* Loan Details Page Styling */
+.loan-details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loan-details-container h2 {
+    font-size: 28px;
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loan-info, .operator-info, .payments-info {
+    margin-bottom: 20px;
+}
+
+.loan-info h3, .operator-info h3, .payments-info h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.loan-info p, .operator-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.loan-info p span, .operator-info p span {
+    color: #333;
+    font-weight: bold;
+}
+
+.payments-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.payments-info th, .payments-info td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.payments-info th {
+    background-color: #ff6600;
+    color: white;
+}
+
+.payments-info tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+/* Styling for the search bars */
+.search-bar-cash, .search-bar-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.search-bar-cash input, .search-bar-card input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 80%;
+}
+
+.search-bar-cash button, .search-bar-card button {
+    padding: 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: #ff6600; /* Orange background */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar-cash button:hover, .search-bar-card button:hover {
+    background-color: #e65c00; /* Darker orange on hover */
+}
+
+/* Style for the loan details card */
+.loan-details.card {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.loan-details h2 {
+    text-align: center;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.info-box h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 5px;
+}
+
+.info-box p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+}
+
+.payments-section h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #ff6600;
+    padding-bottom: 5px;
+}
+
+.payments-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.payments-section th, .payments-section td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.payments-section th {
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+}
+
+.payments-section tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#edit-loan-button {
+    display: block;
+    margin: 20px auto;
+    padding: 14px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#edit-loan-button:hover {
+    background-color: #e65c00;
+    transform: translateY(-2px);
+}
+
+.loan-details {
+    /* Other styles for the .loan-details */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between; /* Adjust this to 'space-around' or 'flex-start' based on your preference */
+    margin-top: 20px;
+}
+
+.buttons-container button {
+    flex: 1; /* Makes both buttons the same width */
+    margin-right: 10px; /* Space between buttons */
+}
+
+.buttons-container button:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6600; /* Orange background */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e65c00; /* Darker orange on hover */
+}
+
+
+
+.fa-cash-register{padding-bottom: 20px;}
+.fa-credit-card{padding-bottom: 20px;}
+
+.btn-view-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+}
+
+.btn-view-more:hover {
+    background-color: #ff4500;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #ff6600;
+    color: white;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+.scrollable-table {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+/* Add these styles to your existing stylesheet */
+.operator-details {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.operator-details h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.operator-details p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.card table thead {
+    background-color: #f8f8f8;
+}
+
+.card table th, .card table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.card table th {
+    font-size: 16px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.card table td {
+    font-size: 16px;
+    color: #333;
+}
+
+.header-container a {
+    text-decoration: none;
+}
+/* Estilo para el formulario simple */
+.add-transaction-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-transaction-form h2 {
+    margin-bottom: 20px;
+}
+
+.add-transaction-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-transaction-form form input,
+.add-transaction-form form select,
+.add-transaction-form form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.add-transaction-form form button {
+    background-color: #f65600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-transaction-form form button:hover {
+    background-color: #f65600;
+}
+
+.calendar-container {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transaction-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.transaction-summary th, .transaction-summary td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.transaction-summary th {
+    background-color: #f06e00;
+    color: white;
+}
+
+.transaction-summary td {
+    background-color: #fff;
+}
+
+/* Botón de acción */
+.action-btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #ff6600;
+}
+
+/* Responsive design para móviles */
+@media screen and (max-width: 768px) {
+    .transaction-summary th, .transaction-summary td {
+        padding: 8px;
+    }
+}
+
+
+
+/* Estilos generales del header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centrar los elementos en la misma línea */
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    height: 60px; /* Fija una altura para el header */
+    position: relative;
+    z-index: 10; /* Asegura que el header esté siempre por encima de otros elementos */
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 60px; /* Alineación vertical */
+}
+
+/* Menú de navegación para pantallas grandes */
+#nav-menu {
+    display: flex;
+    gap: 15px;
+}
+
+#nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+/* Menú hamburguesa */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: auto;
+    height: 60px; /* Asegura la misma altura que el header */
+    justify-content: center; /* Centra el ícono verticalmente */
+    z-index: 15; /* Asegura que el botón esté encima de otros elementos */
+}
+
+.hamburger-menu span {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Menú para pantallas pequeñas */
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #ff6600;
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 160px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px 0;
+    font-size: 0.9rem;
+    display: block;
+}
+
+/* Estilos responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    #nav-menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .mobile-nav.open {
+        display: flex;
+    }
+}
+

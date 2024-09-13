@@ -1,0 +1,3473 @@
+[
+    {
+        "id_prestamo": 1,
+        "monto": 95357,
+        "tasa": 0.042,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-10-24",
+        "plazo": 19,
+        "unidad": "dias",
+        "id_cliente": 127,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-10-25",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": true
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-10-26",
+                "monto": 95367.97,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-10-27",
+                "monto": 95367.97,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-10-28",
+                "monto": 95367.97,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-10-29",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-10-30",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-10-31",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-11-01",
+                "monto": 95367.97,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-11-02",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-11-03",
+                "monto": 95367.97,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-11-04",
+                "monto": 95367.97,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-11-05",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-11-06",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-11-07",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-11-08",
+                "monto": 95367.97,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-11-09",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-11-10",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2024-11-11",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2024-11-12",
+                "monto": 95367.97,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 2,
+        "monto": 66432,
+        "tasa": 0.046,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-09-18",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 152,
+        "id_operador": 459,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-09-19",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": true
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-09-20",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": true
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-09-21",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-09-22",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-09-23",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-09-24",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-09-25",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-09-26",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-09-27",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-09-28",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-09-29",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-09-30",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-10-01",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-10-02",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-10-03",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-10-04",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-10-05",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2024-10-06",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2024-10-07",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 20,
+                "fecha_cobro": "2024-10-08",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 21,
+                "fecha_cobro": "2024-10-09",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 22,
+                "fecha_cobro": "2024-10-10",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 23,
+                "fecha_cobro": "2024-10-11",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 24,
+                "fecha_cobro": "2024-10-12",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 25,
+                "fecha_cobro": "2024-10-13",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 26,
+                "fecha_cobro": "2024-10-14",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 27,
+                "fecha_cobro": "2024-10-15",
+                "monto": 66440.37,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 28,
+                "fecha_cobro": "2024-10-16",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 29,
+                "fecha_cobro": "2024-10-17",
+                "monto": 66440.37,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 3,
+        "monto": 67807,
+        "tasa": 0.044,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-01-31",
+        "plazo": 23,
+        "unidad": "dias",
+        "id_cliente": 125,
+        "id_operador": 458,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-04-28",
+                "monto": 9521,
+                "metodo_pago": "efectivo",
+                "pagado": true
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 4,
+        "monto": 89036,
+        "tasa": 0.053,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-10-06",
+        "plazo": 28,
+        "unidad": "dias",
+        "id_cliente": 147,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-10-07",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": true
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-10-08",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-10-09",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-10-10",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-10-11",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-10-12",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-10-13",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-10-14",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-10-15",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-10-16",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-10-17",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-10-18",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-10-19",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-10-20",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-10-21",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-10-22",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-10-23",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2024-10-24",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2024-10-25",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 20,
+                "fecha_cobro": "2024-10-26",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 21,
+                "fecha_cobro": "2024-10-27",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 22,
+                "fecha_cobro": "2024-10-28",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 23,
+                "fecha_cobro": "2024-10-29",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 24,
+                "fecha_cobro": "2024-10-30",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 25,
+                "fecha_cobro": "2024-10-31",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 26,
+                "fecha_cobro": "2024-11-01",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 27,
+                "fecha_cobro": "2024-11-02",
+                "monto": 89048.93,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 28,
+                "fecha_cobro": "2024-11-03",
+                "monto": 89048.93,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 5,
+        "monto": 94346,
+        "tasa": 0.058,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-11-13",
+        "plazo": 23,
+        "unidad": "dias",
+        "id_cliente": 141,
+        "id_operador": 460,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-06-03",
+                "monto": 8606,
+                "metodo_pago": "efectivo",
+                "pagado": true
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 6,
+        "monto": 82652,
+        "tasa": 0.053,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-04-20",
+        "plazo": 15,
+        "unidad": "dias",
+        "id_cliente": 143,
+        "id_operador": 460,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-04-21",
+                "monto": 82664.0,
+                "metodo_pago": "transferencia",
+                "pagado": true
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-04-22",
+                "monto": 82664.0,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-04-23",
+                "monto": 82664.0,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-04-24",
+                "monto": 82664.0,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-04-25",
+                "monto": 82664.0,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-04-26",
+                "monto": 82664.0,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-04-27",
+                "monto": 82664.0,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-04-28",
+                "monto": 82664.0,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-04-29",
+                "monto": 82664.0,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-04-30",
+                "monto": 82664.0,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-05-01",
+                "monto": 82664.0,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-05-02",
+                "monto": 82664.0,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-05-03",
+                "monto": 82664.0,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-05-04",
+                "monto": 82664.0,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-05-05",
+                "monto": 82664.0,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 7,
+        "monto": 77932,
+        "tasa": 0.049,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-11-14",
+        "plazo": 11,
+        "unidad": "dias",
+        "id_cliente": 135,
+        "id_operador": 457,
+        "estado": "vencido",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-01-16",
+                "monto": 8633,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 8,
+        "monto": 55273,
+        "tasa": 0.053,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-06-24",
+        "plazo": 15,
+        "unidad": "dias",
+        "id_cliente": 142,
+        "id_operador": 458,
+        "estado": "vencido",
+        "vencido": true,
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-05-06",
+                "monto": 5578,
+                "metodo_pago": "transferencia",
+                "pagado": true
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-01-27",
+                "monto": 6082,
+                "metodo_pago": "transferencia",
+                "pagado": true
+            }
+        ]
+    },
+    {
+        "id_prestamo": 9,
+        "monto": 90856,
+        "tasa": 0.054,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-12-14",
+        "plazo": 18,
+        "unidad": "dias",
+        "id_cliente": 144,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-12-15",
+                "monto": 90869.44,
+                "metodo_pago": "transferencia",
+                "pagado": true
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-12-16",
+                "monto": 90869.44,
+                "metodo_pago": "transferencia",
+                "pagado": true
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-12-17",
+                "monto": 90869.44,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-12-18",
+                "monto": 90869.44,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-12-19",
+                "monto": 90869.44,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-12-20",
+                "monto": 90869.44,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-12-21",
+                "monto": 90869.44,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-12-22",
+                "monto": 90869.44,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-12-23",
+                "monto": 90869.44,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-12-24",
+                "monto": 90869.44,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-12-25",
+                "monto": 90869.44,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-12-26",
+                "monto": 90869.44,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-12-27",
+                "monto": 90869.44,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-12-28",
+                "monto": 90869.44,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-12-29",
+                "monto": 90869.44,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-12-30",
+                "monto": 90869.44,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-12-31",
+                "monto": 90869.44,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2025-01-01",
+                "monto": 90869.44,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 10,
+        "monto": 92877,
+        "tasa": 0.049,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-10-27",
+        "plazo": 27,
+        "unidad": "dias",
+        "id_cliente": 146,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-10-28",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": true
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-10-29",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-10-30",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-10-31",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-11-01",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-11-02",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-11-03",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-11-04",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-11-05",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-11-06",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-11-07",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-11-08",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-11-09",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-11-10",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-11-11",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-11-12",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-11-13",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2024-11-14",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2024-11-15",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 20,
+                "fecha_cobro": "2024-11-16",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 21,
+                "fecha_cobro": "2024-11-17",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 22,
+                "fecha_cobro": "2024-11-18",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 23,
+                "fecha_cobro": "2024-11-19",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 24,
+                "fecha_cobro": "2024-11-20",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 25,
+                "fecha_cobro": "2024-11-21",
+                "monto": 93028.7,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 26,
+                "fecha_cobro": "2024-11-22",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 27,
+                "fecha_cobro": "2024-11-23",
+                "monto": 93028.7,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 11,
+        "monto": 94253,
+        "tasa": 0.057,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-12-23",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 125,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-12-24",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": true
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-12-25",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": true
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-12-26",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": true
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-12-27",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-12-28",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-12-29",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-12-30",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-12-31",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2025-01-01",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2025-01-02",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2025-01-03",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2025-01-04",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2025-01-05",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2025-01-06",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2025-01-07",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2025-01-08",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2025-01-09",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2025-01-10",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2025-01-11",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 20,
+                "fecha_cobro": "2025-01-12",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 21,
+                "fecha_cobro": "2025-01-13",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 22,
+                "fecha_cobro": "2025-01-14",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 23,
+                "fecha_cobro": "2025-01-15",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 24,
+                "fecha_cobro": "2025-01-16",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 25,
+                "fecha_cobro": "2025-01-17",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 26,
+                "fecha_cobro": "2025-01-18",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 27,
+                "fecha_cobro": "2025-01-19",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 28,
+                "fecha_cobro": "2025-01-20",
+                "monto": 94432.08,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 29,
+                "fecha_cobro": "2025-01-21",
+                "monto": 94432.08,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 12,
+        "monto": 80825,
+        "tasa": 0.044,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-07-15",
+        "plazo": 30,
+        "unidad": "dias",
+        "id_cliente": 146,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-07-16",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-07-17",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-07-18",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-07-19",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-07-20",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-07-21",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-07-22",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-07-23",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-07-24",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-07-25",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-07-26",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-07-27",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-07-28",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-07-29",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-07-30",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-07-31",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-08-01",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2024-08-02",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2024-08-03",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 20,
+                "fecha_cobro": "2024-08-04",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 21,
+                "fecha_cobro": "2024-08-05",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 22,
+                "fecha_cobro": "2024-08-06",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 23,
+                "fecha_cobro": "2024-08-07",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 24,
+                "fecha_cobro": "2024-08-08",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 25,
+                "fecha_cobro": "2024-08-09",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 26,
+                "fecha_cobro": "2024-08-10",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 27,
+                "fecha_cobro": "2024-08-11",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 28,
+                "fecha_cobro": "2024-08-12",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 29,
+                "fecha_cobro": "2024-08-13",
+                "monto": 80943.54,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 30,
+                "fecha_cobro": "2024-08-14",
+                "monto": 80943.54,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 13,
+        "monto": 81411,
+        "tasa": 0.043,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-09-09",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 126,
+        "id_operador": 459,
+        "estado": "vencido",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-09-25",
+                "monto": 12461,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 14,
+        "monto": 98690,
+        "tasa": 0.047,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-10-10",
+        "plazo": 15,
+        "unidad": "dias",
+        "id_cliente": 151,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-10-11",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-10-12",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-10-13",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-10-14",
+                "monto": 98702.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-10-15",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-10-16",
+                "monto": 98702.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-10-17",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-10-18",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-10-19",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-10-20",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-10-21",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-10-22",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-10-23",
+                "monto": 98702.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-10-24",
+                "monto": 98702.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-10-25",
+                "monto": 98702.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 15,
+        "monto": 64383,
+        "tasa": 0.047,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-01-25",
+        "plazo": 15,
+        "unidad": "dias",
+        "id_cliente": 139,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-01-26",
+                "monto": 64391.29,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-01-27",
+                "monto": 64391.29,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-01-28",
+                "monto": 64391.29,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-01-29",
+                "monto": 64391.29,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-01-30",
+                "monto": 64391.29,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-01-31",
+                "monto": 64391.29,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-02-01",
+                "monto": 64391.29,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-02-02",
+                "monto": 64391.29,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-02-03",
+                "monto": 64391.29,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-02-04",
+                "monto": 64391.29,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-02-05",
+                "monto": 64391.29,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-02-06",
+                "monto": 64391.29,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-02-07",
+                "monto": 64391.29,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-02-08",
+                "monto": 64391.29,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-02-09",
+                "monto": 64391.29,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 16,
+        "monto": 95888,
+        "tasa": 0.046,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-06-28",
+        "plazo": 21,
+        "unidad": "dias",
+        "id_cliente": 128,
+        "id_operador": 460,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-03-25",
+                "monto": 6249,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-03-01",
+                "monto": 7425,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-01-21",
+                "monto": 13055,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 17,
+        "monto": 75516,
+        "tasa": 0.057,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-04-01",
+        "plazo": 18,
+        "unidad": "dias",
+        "id_cliente": 129,
+        "id_operador": 460,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-04-02",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-04-03",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-04-04",
+                "monto": 75527.79,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-04-05",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-04-06",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-04-07",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-04-08",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-04-09",
+                "monto": 75527.79,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-04-10",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-04-11",
+                "monto": 75527.79,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-04-12",
+                "monto": 75527.79,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-04-13",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-04-14",
+                "monto": 75527.79,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-04-15",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-04-16",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-04-17",
+                "monto": 75527.79,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-04-18",
+                "monto": 75527.79,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2024-04-19",
+                "monto": 75527.79,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 18,
+        "monto": 99925,
+        "tasa": 0.043,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-12-28",
+        "plazo": 25,
+        "unidad": "dias",
+        "id_cliente": 136,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-12-29",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-12-30",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-12-31",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2025-01-01",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2025-01-02",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2025-01-03",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2025-01-04",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2025-01-05",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2025-01-06",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2025-01-07",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2025-01-08",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2025-01-09",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2025-01-10",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2025-01-11",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2025-01-12",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2025-01-13",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2025-01-14",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2025-01-15",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2025-01-16",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 20,
+                "fecha_cobro": "2025-01-17",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 21,
+                "fecha_cobro": "2025-01-18",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 22,
+                "fecha_cobro": "2025-01-19",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 23,
+                "fecha_cobro": "2025-01-20",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 24,
+                "fecha_cobro": "2025-01-21",
+                "monto": 100068.23,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 25,
+                "fecha_cobro": "2025-01-22",
+                "monto": 100068.23,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 19,
+        "monto": 96232,
+        "tasa": 0.048,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-04-22",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 136,
+        "id_operador": 459,
+        "estado": "vencido",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-07-23",
+                "monto": 13996,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 20,
+        "monto": 60629,
+        "tasa": 0.06,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-12-04",
+        "plazo": 26,
+        "unidad": "dias",
+        "id_cliente": 141,
+        "id_operador": 459,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-03-17",
+                "monto": 7331,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 21,
+        "monto": 97640,
+        "tasa": 0.059,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-07-22",
+        "plazo": 22,
+        "unidad": "dias",
+        "id_cliente": 146,
+        "id_operador": 457,
+        "estado": "vencido",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-12-25",
+                "monto": 14970,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-07-26",
+                "monto": 11436,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-04-19",
+                "monto": 7195,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 22,
+        "monto": 82064,
+        "tasa": 0.059,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-08-03",
+        "plazo": 26,
+        "unidad": "dias",
+        "id_cliente": 139,
+        "id_operador": 458,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-06-21",
+                "monto": 11288,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-07-20",
+                "monto": 9945,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-07-22",
+                "monto": 14442,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 23,
+        "monto": 53867,
+        "tasa": 0.054,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-08-31",
+        "plazo": 12,
+        "unidad": "dias",
+        "id_cliente": 145,
+        "id_operador": 460,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-09-01",
+                "monto": 53963.96,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-09-02",
+                "monto": 53963.96,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-09-03",
+                "monto": 53963.96,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-09-04",
+                "monto": 53963.96,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-09-05",
+                "monto": 53963.96,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-09-06",
+                "monto": 53963.96,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-09-07",
+                "monto": 53963.96,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-09-08",
+                "monto": 53963.96,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-09-09",
+                "monto": 53963.96,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-09-10",
+                "monto": 53963.96,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-09-11",
+                "monto": 53963.96,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-09-12",
+                "monto": 53963.96,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 24,
+        "monto": 62198,
+        "tasa": 0.057,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-04-24",
+        "plazo": 30,
+        "unidad": "dias",
+        "id_cliente": 144,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-04-25",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-04-26",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-04-27",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-04-28",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-04-29",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-04-30",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-05-01",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-05-02",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-05-03",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-05-04",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-05-05",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-05-06",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-05-07",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-05-08",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-05-09",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-05-10",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-05-11",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2024-05-12",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2024-05-13",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 20,
+                "fecha_cobro": "2024-05-14",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 21,
+                "fecha_cobro": "2024-05-15",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 22,
+                "fecha_cobro": "2024-05-16",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 23,
+                "fecha_cobro": "2024-05-17",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 24,
+                "fecha_cobro": "2024-05-18",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 25,
+                "fecha_cobro": "2024-05-19",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 26,
+                "fecha_cobro": "2024-05-20",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 27,
+                "fecha_cobro": "2024-05-21",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 28,
+                "fecha_cobro": "2024-05-22",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 29,
+                "fecha_cobro": "2024-05-23",
+                "monto": 62207.71,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 30,
+                "fecha_cobro": "2024-05-24",
+                "monto": 62207.71,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 25,
+        "monto": 98616,
+        "tasa": 0.053,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-02-09",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 139,
+        "id_operador": 460,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-02-10",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-02-11",
+                "monto": 98790.22,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-02-12",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-02-13",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-02-14",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-02-15",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-02-16",
+                "monto": 98790.22,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-02-17",
+                "monto": 98790.22,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-02-18",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-02-19",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-02-20",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-02-21",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-02-22",
+                "monto": 98790.22,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-02-23",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-02-24",
+                "monto": 98790.22,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-02-25",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-02-26",
+                "monto": 98790.22,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2024-02-27",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2024-02-28",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 20,
+                "fecha_cobro": "2024-02-29",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 21,
+                "fecha_cobro": "2024-03-01",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 22,
+                "fecha_cobro": "2024-03-02",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 23,
+                "fecha_cobro": "2024-03-03",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 24,
+                "fecha_cobro": "2024-03-04",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 25,
+                "fecha_cobro": "2024-03-05",
+                "monto": 98790.22,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 26,
+                "fecha_cobro": "2024-03-06",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 27,
+                "fecha_cobro": "2024-03-07",
+                "monto": 98790.22,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 28,
+                "fecha_cobro": "2024-03-08",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 29,
+                "fecha_cobro": "2024-03-09",
+                "monto": 98790.22,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 26,
+        "monto": 51748,
+        "tasa": 0.059,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-09-10",
+        "plazo": 10,
+        "unidad": "dias",
+        "id_cliente": 137,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-09-11",
+                "monto": 51849.77,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-09-12",
+                "monto": 51849.77,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-09-13",
+                "monto": 51849.77,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-09-14",
+                "monto": 51849.77,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-09-15",
+                "monto": 51849.77,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-09-16",
+                "monto": 51849.77,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-09-17",
+                "monto": 51849.77,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-09-18",
+                "monto": 51849.77,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-09-19",
+                "monto": 51849.77,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-09-20",
+                "monto": 51849.77,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 27,
+        "monto": 56365,
+        "tasa": 0.054,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-09-16",
+        "plazo": 26,
+        "unidad": "dias",
+        "id_cliente": 138,
+        "id_operador": 459,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-02-25",
+                "monto": 14253,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-09-28",
+                "monto": 13209,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-10-11",
+                "monto": 13756,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": true
+    },
+    {
+        "id_prestamo": 28,
+        "monto": 95467,
+        "tasa": 0.044,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-10-04",
+        "plazo": 24,
+        "unidad": "dias",
+        "id_cliente": 128,
+        "id_operador": 459,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-10-05",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-10-06",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-10-07",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-10-08",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-10-09",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-10-10",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-10-11",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-10-12",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-10-13",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-10-14",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-10-15",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 12,
+                "fecha_cobro": "2024-10-16",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 13,
+                "fecha_cobro": "2024-10-17",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 14,
+                "fecha_cobro": "2024-10-18",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 15,
+                "fecha_cobro": "2024-10-19",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 16,
+                "fecha_cobro": "2024-10-20",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 17,
+                "fecha_cobro": "2024-10-21",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 18,
+                "fecha_cobro": "2024-10-22",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 19,
+                "fecha_cobro": "2024-10-23",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 20,
+                "fecha_cobro": "2024-10-24",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 21,
+                "fecha_cobro": "2024-10-25",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 22,
+                "fecha_cobro": "2024-10-26",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 23,
+                "fecha_cobro": "2024-10-27",
+                "monto": 95478.51,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 24,
+                "fecha_cobro": "2024-10-28",
+                "monto": 95478.51,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 29,
+        "monto": 82083,
+        "tasa": 0.042,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-07-13",
+        "plazo": 10,
+        "unidad": "dias",
+        "id_cliente": 141,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-07-14",
+                "monto": 82092.45,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-07-15",
+                "monto": 82092.45,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-07-16",
+                "monto": 82092.45,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-07-17",
+                "monto": 82092.45,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-07-18",
+                "monto": 82092.45,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-07-19",
+                "monto": 82092.45,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-07-20",
+                "monto": 82092.45,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-07-21",
+                "monto": 82092.45,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-07-22",
+                "monto": 82092.45,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-07-23",
+                "monto": 82092.45,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 30,
+        "monto": 88880,
+        "tasa": 0.056,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-08-23",
+        "plazo": 11,
+        "unidad": "dias",
+        "id_cliente": 130,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-08-24",
+                "monto": 89045.91,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-08-25",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-08-26",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-08-27",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-08-28",
+                "monto": 89045.91,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-08-29",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-08-30",
+                "monto": 89045.91,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-08-31",
+                "monto": 89045.91,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-09-01",
+                "monto": 89045.91,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-09-02",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-09-03",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    },
+    {
+        "id_prestamo": 33,
+        "monto": 88880,
+        "tasa": 0.056,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-08-23",
+        "plazo": 11,
+        "unidad": "dias",
+        "id_cliente": 130,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-08-24",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-08-25",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-08-26",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 4,
+                "fecha_cobro": "2024-08-27",
+                "monto": 89045.91,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 5,
+                "fecha_cobro": "2024-08-28",
+                "monto": 89045.91,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 6,
+                "fecha_cobro": "2024-08-29",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 7,
+                "fecha_cobro": "2024-08-30",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 8,
+                "fecha_cobro": "2024-08-31",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            },
+            {
+                "id_cobro": 9,
+                "fecha_cobro": "2024-09-01",
+                "monto": 89045.91,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 10,
+                "fecha_cobro": "2024-09-02",
+                "monto": 89045.91,
+                "metodo_pago": "transferencia",
+                "pagado": false
+            },
+            {
+                "id_cobro": 11,
+                "fecha_cobro": "2024-09-03",
+                "monto": 89045.91,
+                "metodo_pago": "efectivo",
+                "pagado": false
+            }
+        ],
+        "vencido": false
+    }
+]

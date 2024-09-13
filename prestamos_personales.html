@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Préstamos Personales</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">Panel Financiero</h1>
+    
+            <!-- Menú hamburguesa para pantallas pequeñas -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <!-- Menú de navegación normal para pantallas grandes -->
+            <nav id="nav-menu">
+                <div class="nav-item"><a href="index.html">Inicio</a></div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Préstamos</a>
+                    <div class="dropdown-menu">
+                        <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                        <a href="prestamos_personales.html">Préstamos Personales</a>
+                        <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                        <a href="vencidos.html">Vencidos</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Caja e Inversiones</a>
+                    <div class="dropdown-menu">
+                        <a href="hoja_diaria.html">Hoja Diaria</a>
+                        <a href="inversiones.html">Inversiones</a>
+                        <a href="caja.html">Caja</a>
+                    </div>
+                </div>
+            </nav>
+    
+            <!-- Menú desplegable en pantallas pequeñas -->
+            <div class="mobile-nav" id="mobile-nav">
+                <a href="index.html">Inicio</a>
+                <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                <a href="prestamos_personales.html">Préstamos Personales</a>
+                <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                <a href="vencidos.html">Vencidos</a>
+                <a href="hoja_diaria.html">Hoja Diaria</a>
+                <a href="inversiones.html">Inversiones</a>
+                <a href="caja.html">Caja</a>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <h1>Registrar Préstamo Personal</h1>
+        <!-- <h2>Registrar Préstamo Personal</h2> -->
+        <form id="personal-loan-form">
+
+            <div class="form-group">
+                <label for="client-name">Nombre del Cliente:</label>
+                <input type="text" id="client-name" name="client-name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="loan-amount">Monto del Préstamo:</label>
+                <input type="number" id="loan-amount" name="loan-amount" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="interest-rate">Tasa de Interés:</label>
+                <input type="number" id="interest-rate" name="interest-rate" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="payment-frequency">Frecuencia de Pago:</label>
+                <select id="payment-frequency" name="payment-frequency" class="form-control">
+                    <option value="monthly">Diaria</option>
+                    <option value="bi-weekly">Semanal</option>
+                    <option value="bi-weekly">Mensual</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="loan-term">Plazo:</label>
+                <input type="text" id="loan-term" name="loan-term" class="form-control">
+            </div>
+            <div class="form-group">
+
+                <label for="client-name">Cliente: </label>
+                <input type="text" id="client-name" name="client-name" class="form-control">
+            </div>
+
+            </div>
+            <div class="form-group">
+                <label for="payment-method">Método de Pago:</label>
+                <select id="payment-method" name="payment-method" class="form-control">
+                    <option value="cash">Efectivo</option>
+                    <option value="transfer">Transferencia</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="loan-purpose">Propósito del Préstamo:</label>
+                <textarea id="loan-purpose" name="loan-purpose" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn">Registrar Préstamo</button>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Panel Financiero.</p>
+        </div>
+    </footer>
+    <script src="js/prestamos_personales.js"></script>
+    <script src="js/header.js"></script>
+</body>
+
+</html>

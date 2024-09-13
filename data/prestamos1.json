@@ -1,0 +1,570 @@
+[
+    {
+        "id_prestamo": 1,
+        "monto": 95357,
+        "tasa": 0.042,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-10-24",
+        "plazo": 19,
+        "unidad": "dias",
+        "id_cliente": 127,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 2,
+        "monto": 66432,
+        "tasa": 0.046,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-09-18",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 152,
+        "id_operador": 459,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 3,
+        "monto": 67807,
+        "tasa": 0.044,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-01-31",
+        "plazo": 23,
+        "unidad": "dias",
+        "id_cliente": 125,
+        "id_operador": 458,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-04-28",
+                "monto": 9521,
+                "metodo_pago": "efectivo"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 4,
+        "monto": 89036,
+        "tasa": 0.053,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-10-06",
+        "plazo": 28,
+        "unidad": "dias",
+        "id_cliente": 147,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 5,
+        "monto": 94346,
+        "tasa": 0.058,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-11-13",
+        "plazo": 23,
+        "unidad": "dias",
+        "id_cliente": 141,
+        "id_operador": 460,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-06-03",
+                "monto": 8606,
+                "metodo_pago": "efectivo"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 6,
+        "monto": 82652,
+        "tasa": 0.053,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-04-20",
+        "plazo": 15,
+        "unidad": "dias",
+        "id_cliente": 143,
+        "id_operador": 460,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 7,
+        "monto": 77932,
+        "tasa": 0.049,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-11-14",
+        "plazo": 11,
+        "unidad": "dias",
+        "id_cliente": 135,
+        "id_operador": 457,
+        "estado": "vencido",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-01-16",
+                "monto": 8633,
+                "metodo_pago": "transferencia"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 8,
+        "monto": 55273,
+        "tasa": 0.053,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-06-24",
+        "plazo": 15,
+        "unidad": "dias",
+        "id_cliente": 142,
+        "id_operador": 458,
+        "estado": "vencido",
+        "vencido": true,
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-05-06",
+                "monto": 5578,
+                "metodo_pago": "transferencia",
+                "pagado":true
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-01-27",
+                "monto": 6082,
+                "metodo_pago": "transferencia",
+                "pagado":true
+            }
+        ]
+    },
+    {
+        "id_prestamo": 9,
+        "monto": 90856,
+        "tasa": 0.054,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-12-14",
+        "plazo": 18,
+        "unidad": "dias",
+        "id_cliente": 144,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 10,
+        "monto": 92877,
+        "tasa": 0.049,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-10-27",
+        "plazo": 27,
+        "unidad": "dias",
+        "id_cliente": 146,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 11,
+        "monto": 94253,
+        "tasa": 0.057,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-12-23",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 125,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 12,
+        "monto": 80825,
+        "tasa": 0.044,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-07-15",
+        "plazo": 30,
+        "unidad": "dias",
+        "id_cliente": 146,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 13,
+        "monto": 81411,
+        "tasa": 0.043,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-09-09",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 126,
+        "id_operador": 459,
+        "estado": "vencido",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-09-25",
+                "monto": 12461,
+                "metodo_pago": "transferencia"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 14,
+        "monto": 98690,
+        "tasa": 0.047,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-10-10",
+        "plazo": 15,
+        "unidad": "dias",
+        "id_cliente": 151,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 15,
+        "monto": 64383,
+        "tasa": 0.047,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-01-25",
+        "plazo": 15,
+        "unidad": "dias",
+        "id_cliente": 139,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 16,
+        "monto": 95888,
+        "tasa": 0.046,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-06-28",
+        "plazo": 21,
+        "unidad": "dias",
+        "id_cliente": 128,
+        "id_operador": 460,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-03-25",
+                "monto": 6249,
+                "metodo_pago": "transferencia"
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-03-01",
+                "monto": 7425,
+                "metodo_pago": "efectivo"
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-01-21",
+                "monto": 13055,
+                "metodo_pago": "efectivo"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 17,
+        "monto": 75516,
+        "tasa": 0.057,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-04-01",
+        "plazo": 18,
+        "unidad": "dias",
+        "id_cliente": 129,
+        "id_operador": 460,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 18,
+        "monto": 99925,
+        "tasa": 0.043,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-12-28",
+        "plazo": 25,
+        "unidad": "dias",
+        "id_cliente": 136,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 19,
+        "monto": 96232,
+        "tasa": 0.048,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-04-22",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 136,
+        "id_operador": 459,
+        "estado": "vencido",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-07-23",
+                "monto": 13996,
+                "metodo_pago": "transferencia"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 20,
+        "monto": 60629,
+        "tasa": 0.06,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-12-04",
+        "plazo": 26,
+        "unidad": "dias",
+        "id_cliente": 141,
+        "id_operador": 459,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-03-17",
+                "monto": 7331,
+                "metodo_pago": "transferencia"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 21,
+        "monto": 97640,
+        "tasa": 0.059,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-07-22",
+        "plazo": 22,
+        "unidad": "dias",
+        "id_cliente": 146,
+        "id_operador": 457,
+        "estado": "vencido",
+        "tipo": "card",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-12-25",
+                "monto": 14970,
+                "metodo_pago": "efectivo"
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-07-26",
+                "monto": 11436,
+                "metodo_pago": "transferencia"
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-04-19",
+                "monto": 7195,
+                "metodo_pago": "efectivo"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 22,
+        "monto": 82064,
+        "tasa": 0.059,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-08-03",
+        "plazo": 26,
+        "unidad": "dias",
+        "id_cliente": 139,
+        "id_operador": 458,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-06-21",
+                "monto": 11288,
+                "metodo_pago": "transferencia"
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-07-20",
+                "monto": 9945,
+                "metodo_pago": "efectivo"
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-07-22",
+                "monto": 14442,
+                "metodo_pago": "efectivo"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 23,
+        "monto": 53867,
+        "tasa": 0.054,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-08-31",
+        "plazo": 12,
+        "unidad": "dias",
+        "id_cliente": 145,
+        "id_operador": 460,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 24,
+        "monto": 62198,
+        "tasa": 0.057,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-04-24",
+        "plazo": 30,
+        "unidad": "dias",
+        "id_cliente": 144,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 25,
+        "monto": 98616,
+        "tasa": 0.053,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-02-09",
+        "plazo": 29,
+        "unidad": "dias",
+        "id_cliente": 139,
+        "id_operador": 460,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 26,
+        "monto": 51748,
+        "tasa": 0.059,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-09-10",
+        "plazo": 10,
+        "unidad": "dias",
+        "id_cliente": 137,
+        "id_operador": 457,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 27,
+        "monto": 56365,
+        "tasa": 0.054,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-09-16",
+        "plazo": 26,
+        "unidad": "dias",
+        "id_cliente": 138,
+        "id_operador": 459,
+        "estado": "vencido",
+        "tipo": "cash",
+        "cobros": [
+            {
+                "id_cobro": 1,
+                "fecha_cobro": "2024-02-25",
+                "monto": 14253,
+                "metodo_pago": "efectivo"
+            },
+            {
+                "id_cobro": 2,
+                "fecha_cobro": "2024-09-28",
+                "monto": 13209,
+                "metodo_pago": "transferencia"
+            },
+            {
+                "id_cobro": 3,
+                "fecha_cobro": "2024-10-11",
+                "monto": 13756,
+                "metodo_pago": "transferencia"
+            }
+        ]
+    },
+    {
+        "id_prestamo": 28,
+        "monto": 95467,
+        "tasa": 0.044,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-10-04",
+        "plazo": 24,
+        "unidad": "dias",
+        "id_cliente": 128,
+        "id_operador": 459,
+        "estado": "activo",
+        "tipo": "cash",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 29,
+        "monto": 82083,
+        "tasa": 0.042,
+        "unidad_tasa": "anual",
+        "fecha_inicio": "2024-07-13",
+        "plazo": 10,
+        "unidad": "dias",
+        "id_cliente": 141,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 30,
+        "monto": 88880,
+        "tasa": 0.056,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-08-23",
+        "plazo": 11,
+        "unidad": "dias",
+        "id_cliente": 130,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    },
+    {
+        "id_prestamo": 33,
+        "monto": 88880,
+        "tasa": 0.056,
+        "unidad_tasa": "mensual",
+        "fecha_inicio": "2024-08-23",
+        "plazo": 11,
+        "unidad": "dias",
+        "id_cliente": 130,
+        "id_operador": 458,
+        "estado": "activo",
+        "tipo": "card",
+        "cobros": []
+    }
+]

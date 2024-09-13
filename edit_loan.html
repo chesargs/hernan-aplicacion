@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Loan</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<header>
+    <div class="header-container">
+        <h1 class="logo">Panel Financiero</h1>
+
+        <!-- Menú hamburguesa para pantallas pequeñas -->
+        <div class="hamburger-menu" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Menú de navegación normal para pantallas grandes -->
+        <nav id="nav-menu">
+            <div class="nav-item"><a href="index.html">Inicio</a></div>
+            <div class="nav-item dropdown">
+                <a href="#" class="dropdown-toggle">Préstamos</a>
+                <div class="dropdown-menu">
+                    <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                    <a href="prestamos_personales.html">Préstamos Personales</a>
+                    <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                    <a href="vencidos.html">Vencidos</a>
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="#" class="dropdown-toggle">Caja e Inversiones</a>
+                <div class="dropdown-menu">
+                    <a href="hoja_diaria.html">Hoja Diaria</a>
+                    <a href="inversiones.html">Inversiones</a>
+                    <a href="caja.html">Caja</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Menú desplegable en pantallas pequeñas -->
+        <div class="mobile-nav" id="mobile-nav">
+            <a href="index.html">Inicio</a>
+            <a href="detalles_prestamos.html">Detalles Préstamos</a>
+            <a href="prestamos_personales.html">Préstamos Personales</a>
+            <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+            <a href="vencidos.html">Vencidos</a>
+            <a href="hoja_diaria.html">Hoja Diaria</a>
+            <a href="inversiones.html">Inversiones</a>
+            <a href="caja.html">Caja</a>
+        </div>
+    </div>
+</header>
+<body>
+    
+    <div class="containers">
+        <h1 class="editloanh1">Editar Detalles de Prestamo</h1>
+        <form id="editLoanForm">
+            <div class="form-group">
+                <label for="client">Cliente:</label>
+                <input type="text" id="client" name="client" class="form-control" value="" readonly>
+            </div>
+            <div class="form-group">
+                <label for="amount">Monto:</label>
+                <input type="number" id="amount" name="amount" class="form-control" value="">
+            </div>
+            <div class="form-group">
+                <label for="rate">Tasa:</label>
+                <input type="text" id="rate" name="rate" class="form-control" value="">
+            </div>
+            <div class="form-group">
+                <label for="date">Fecha:</label>
+                <input type="date" id="date" name="date" class="form-control" value="">
+            </div>
+            <div class="form-group">
+                <label for="term">Plazo:</label>
+                <input type="text" id="term" name="term" class="form-control" value="">
+            </div>
+            <div class="form-group">
+                <label for="status">Estado:</label>
+                <input type="text" id="status" name="status" class="form-control" value="">
+            </div>
+            <button type="submit" class="btn">Guardar Cambios</button>
+            <button id="back-button" onclick="window.location.href='index.html';">Inicio</button>
+        </form>
+    </div>
+    <script src="js/edit_loan.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>

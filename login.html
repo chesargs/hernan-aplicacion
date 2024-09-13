@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Panel Financiero</h1>
+    
+            <nav id="nav-menu">
+                <div class="nav-item">
+                    <a href="index.html">Inicio</a>
+                </div>
+    
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Préstamos</a>
+                    <div class="dropdown-menu">
+                        <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                        <a href="prestamos_personales.html">Préstamos Personales</a>
+                        <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                        <a href="vencidos.html">Vencidos</a>
+                    </div>
+                </div>
+    
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Caja e Inversiones</a>
+                    <div class="dropdown-menu">
+                        <a href="hoja_diaria.html">Hoja Diaria</a>
+                        <a href="inversiones.html">Inversiones</a>
+                        <a href="caja.html">Caja</a>
+                    </div>
+                </div>
+    
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="textbox">
+                    <input type="text" id="username" placeholder="Username" required>
+                    <span class="error" id="usernameError">Please enter your username</span>
+                </div>
+                <div class="textbox">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <span class="error" id="passwordError">Please enter your password</span>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="rememberMe"> Remember Me
+                    </label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="links">
+                    <a href="#">Forgot Password?</a>
+                    <a href="#">Sign Up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>

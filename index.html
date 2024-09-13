@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Financiero</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">Panel Financiero</h1>
+    
+            <!-- Menú hamburguesa para pantallas pequeñas -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <!-- Menú de navegación normal para pantallas grandes -->
+            <nav id="nav-menu">
+                <div class="nav-item"><a href="index.html">Inicio</a></div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Préstamos</a>
+                    <div class="dropdown-menu">
+                        <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                        <a href="prestamos_personales.html">Préstamos Personales</a>
+                        <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                        <a href="vencidos.html">Vencidos</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Caja e Inversiones</a>
+                    <div class="dropdown-menu">
+                        <a href="hoja_diaria.html">Hoja Diaria</a>
+                        <a href="inversiones.html">Inversiones</a>
+                        <a href="caja.html">Caja</a>
+                    </div>
+                </div>
+            </nav>
+    
+            <!-- Menú desplegable en pantallas pequeñas -->
+            <div class="mobile-nav" id="mobile-nav">
+                <a href="index.html">Inicio</a>
+                <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                <a href="prestamos_personales.html">Préstamos Personales</a>
+                <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                <a href="vencidos.html">Vencidos</a>
+                <a href="hoja_diaria.html">Hoja Diaria</a>
+                <a href="inversiones.html">Inversiones</a>
+                <a href="caja.html">Caja</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="totals">
+            <h3>Monto Total: <span id="grand-total">$0.00</span></h3>
+        </div>
+        <div class="container">
+            <div class="financial-overview">
+                <h2><i class="fas fa-calculator"></i> Resumen por operador</h2>
+                <select id="operator-select"></select>
+                <div id="operator-info" class="info-box"></div>
+                <div id="total-money-display" class="info-box">
+                    <span class="amount">$0.00</span>
+                </div>
+                <button id="render-button"><i class="fas fa-sync"></i> Rendir</button>
+            </div>
+            <div class="loans-payments">
+                <div class="section-header">
+                    <h2><i class="fas fa-cash-register"></i> Préstamos Otorgados (Efectivo)</h2>
+                </div>
+                <div class="card">
+                    <table id="cash-loans">
+                        <thead>
+                            <tr>
+                                <th><i class="fas fa-user"></i> Cliente</th>
+                                <th><i class="fas fa-dollar-sign"></i> Monto</th>
+                                <th><i class="fas fa-percentage"></i> Tasa</th>
+                                <th><i class="fas fa-calendar-alt"></i> Fecha de Inicio</th>
+                                <th><i class="fas fa-clock"></i> Plazo</th>
+                                <th><i class="fas fa-info-circle"></i> Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cash-loans-body">
+                            <div class="search-bar-cash">
+                                <input type="text" placeholder="Search by client name">
+                                <button><i class="fas fa-search"></i></button>
+                            </div>
+                            <!-- Las filas de préstamos se poblarán aquí -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="section-header">
+                    <h2><i class="fas fa-credit-card"></i> Préstamos Otorgados (Tarjeta)</h2>
+                </div>
+                <div class="card">
+                    <table id="card-loans">
+                        <thead>
+                            <tr>
+                                <th><i class="fas fa-user"></i> Cliente</th>
+                                <th><i class="fas fa-dollar-sign"></i> Monto</th>
+                                <th><i class="fas fa-percentage"></i> Tasa</th>
+                                <th><i class="fas fa-calendar-alt"></i> Fecha de Inicio</th>
+                                <th><i class="fas fa-clock"></i> Plazo</th>
+                                <th><i class="fas fa-info-circle"></i> Estado</th>
+                            </tr>
+                        </thead>
+                        <div class="search-bar-card">
+                            <input type="text" placeholder="Search by client name">
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                        <tbody id="card-loans-body">
+                            <!-- Las filas de préstamos se poblarán aquí -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="section-header">
+                    <h2><i class="fas fa-receipt"></i> Pagos Recibidos</h2>
+                </div>
+                <div class="card">
+                    <table id="payments-received">
+                        <thead>
+                            <tr>
+                                <th><i class="fas fa-receipt"></i> Cliente</th>
+                                <th><i class="fas fa-dollar-sign"></i> Monto</th>
+                                <th><i class="fas fa-calendar-alt"></i> Fecha de Pago</th>
+                            </tr>
+                        </thead>
+                        <tbody id="payments-received-body">
+                            <!-- Las filas de pagos se poblarán aquí -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="buttons-container">
+                    <button id="new-loan-button">Nuevo Préstamo</button>
+                    <button id="new-pay-button">Agregar Pago</button>
+                </div>
+                <!-- <div id="totals">
+                    <h3>Monto Total de todos los operadores: <span id="grand-total">$0.00</span></h3>
+                </div> -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Panel Financiero. .</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/header.js"></script> <!-- Include the header.js file -->
+</body>
+</body>
+</html>
