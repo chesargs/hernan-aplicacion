@@ -1,92 +1,76 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const operatorsUrl = 'data/operadores.json'; // Asegúrate de que la ruta sea correcta
-    const newTransactionForm = document.getElementById('new-transaction-form');
-    const operatorSelect = document.getElementById('operator');
+// Fetch and display cobros (payments) for the selected date
+function mostrarCobrosPorFecha(fecha) {
+    obtenerPrestamos().then(prestamos => {
+        obtenerClientes().then(clientes => {
+            let cobrosDelDia = [];
 
-    // Cargar y mostrar las transacciones de caja por operador
-    const loadOperators = async () => {
-        const operators = await fetchData(operatorsUrl);
-        populateCashTransactions(operators);
-        populateOperatorSelect(operators);
-    };
+            // Recorrer los préstamos y filtrar los cobros por la fecha seleccionada
+            prestamos.forEach(prestamo => {
+                prestamo.cobros.forEach(cobro => {
+                    if (cobro.fecha_cobro === fecha && !cobro.pagado) {
+                        // Encontrar el nombre del cliente en base a su ID
+                        const cliente = clientes.find(c => c.id_cliente === prestamo.id_cliente);
 
-    // Fetch JSON data
-    const fetchData = async (url) => {
-        const response = await fetch(url);
-        const data = await response.json();
-        return data;
-    };
+                        cobrosDelDia.push({
+                            cliente: cliente ? cliente.nombre : 'Cliente Desconocido',
+                            monto: cobro.monto,
+                            metodo_pago: cobro.metodo_pago,
+                            pagado: cobro.pagado,
+                            id_prestamo: prestamo.id_prestamo,
+                            id_cobro: cobro.id_cobro
+                        });
+                    }
+                });
+            });
 
-    // Mostrar las transacciones de caja por operador
-    const populateCashTransactions = (operators) => {
-        const operatorsContainer = document.getElementById('operators-cash-transactions');
-        operatorsContainer.innerHTML = '';
+            // Mostrar cobros en la tabla
+            const tableBody = document.getElementById('daily-sheet-body');
+            tableBody.innerHTML = ''; // Limpiar la tabla antes de llenarla
 
-        operators.forEach(operator => {
-            const operatorSection = document.createElement('section');
-            operatorSection.innerHTML = `
-                <h2>${operator.nombre} (${operator.rol})</h2>
-                <table class="operator-table">
-                    <thead>
-                        <tr>
-                            <th>Tipo</th>
-                            <th>Monto</th>
-                            <th>Fecha</th>
-                            <th>Descripción</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        ${operator.salidas_caja.map(salida => `
-                            <tr>
-                                <td>Salida de Caja</td>
-                                <td>${salida.monto.toLocaleString()}</td>
-                                <td>${salida.fecha}</td>
-                                <td>${salida.descripcion || 'N/A'}</td>
-                            </tr>
-                        `).join('')}
-                    </tbody>
-                </table>
-            `;
-            operatorsContainer.appendChild(operatorSection);
+            if (cobrosDelDia.length > 0) {
+                cobrosDelDia.forEach(cobro => {
+                    let row = `<tr>
+                                <td>${cobro.monto}</td>
+                                <td>${cobro.cliente}</td>
+                                <td><button onclick="marcarComoPagado(${cobro.id_prestamo},${cobro.id_cobro})" class="action-btn">💰</button></td>
+                              </tr>`;
+                    tableBody.innerHTML += row;
+                });
+            } else {
+                tableBody.innerHTML = '<tr><td colspan="3">No hay cobros pendientes para esta fecha.</td></tr>';
+            }
         });
-    };
-
-    // Llenar el select con los nombres de los operadores
-    const populateOperatorSelect = (operators) => {
-        operatorSelect.innerHTML = '';
-        operators.forEach(operator => {
-            const option = document.createElement('option');
-            option.value = operator.id_operador;
-            option.text = operator.nombre;
-            operatorSelect.appendChild(option);
-        });
-    };
-
-    // Manejar el formulario de nueva salida de caja
-    newTransactionForm.addEventListener('submit', (event) => {
-        event.preventDefault();
-
-        const selectedOperatorId = parseInt(document.getElementById('operator').value);
-        const newTransaction = {
-            id_salida: Date.now(),
-            monto: parseFloat(document.getElementById('monto').value),
-            fecha: document.getElementById('fecha').value,
-            descripcion: document.getElementById('descripcion').value
-        };
-
-        addNewTransaction(selectedOperatorId, newTransaction);
     });
+}
 
-    // Agregar la nueva transacción al operador correcto
-    const addNewTransaction = async (operatorId, newTransaction) => {
-        const operators = await fetchData(operatorsUrl);
-        const operator = operators.find(op => op.id_operador === operatorId);
+// Marcar un cobro como pagado y actualizar el JSON
+function marcarComoPagado(idPrestamo, idCobro) {
+    const prestamo = obtenerPrestamoPorId(idPrestamo);
+    const cobro = prestamo.cobros.find(c => c.id_cobro === idCobro);
+    if (cobro) {
+        cobro.pagado = true;
+        actualizarPrestamo(prestamo);
+        mostrarCobrosPorFecha(document.querySelector('.flatpickr').value); // Refrescar la lista
+    }
+}
 
-        if (operator) {
-            operator.salidas_caja.push(newTransaction);
-            populateCashTransactions(operators);
-        }
-    };
+// Obtener datos de los préstamos desde un JSON
+function obtenerPrestamos() {
+    return fetch('/data/prestamos.json')
+        .then(response => response.json())
+        .then(data => data)
+        .catch(error => console.error('Error fetching loans:', error));
+}
 
-    loadOperators();
-});
+// Obtener datos de los clientes desde un JSON
+function obtenerClientes() {
+    return fetch('/data/clientes.json')
+        .then(response => response.json())
+        .then(data => data)
+        .catch(error => console.error('Error fetching clients:', error));
+}
+
+// Actualizar la información del préstamo en el JSON o el servidor
+function actualizarPrestamo(prestamo) {
+    console.log('Updating prestamo:', prestamo);
+}
