@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/rendir_capital.css">
+<title>Rendir Capital por Operador</title>
+</head>
+<body>
+<div class="container">
+    <h1>Rendir Capital por Operador</h1>
+    <form action="/submit_rendicion" method="POST">
+        <label for="operador">Operador:</label>
+        <select id="operador" name="operador">
+            <!-- Options will be filled by JS -->
+        </select>
+        <label for="monto">Monto:</label>
+        <input type="number" id="monto" name="monto" required>
+        <button type="submit">Rendir Capital</button>
+    </form>
+</div>
+<script src="js/rendir_capital.js"></script>
+</body>
+</html>

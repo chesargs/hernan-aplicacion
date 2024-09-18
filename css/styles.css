@@ -1609,3 +1609,37 @@ button:hover {
         display: flex;
     }
 }
+/* Estilos para Rendir Capital por Operador */
+.rendir-capital-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.rendir-capital-container .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.rendir-capital-container h1 {
+    color: #333;
+}
+
+.rendir-capital-container form {
+    margin-top: 20px;
+}
+
+.rendir-capital-container label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.rendir-capital-container input, .rendir-capital-container select {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
