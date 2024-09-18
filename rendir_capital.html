@@ -2,24 +2,79 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/rendir_capital.css">
-<title>Rendir Capital por Operador</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/rendir_capital.css">
+    <title>Rendir Capital por Operador</title>
 </head>
 <body>
-<div class="container">
-    <h1>Rendir Capital por Operador</h1>
-    <form action="/submit_rendicion" method="POST">
-        <label for="operador">Operador:</label>
-        <select id="operador" name="operador">
-            <!-- Options will be filled by JS -->
-        </select>
-        <label for="monto">Monto:</label>
-        <input type="number" id="monto" name="monto" required>
-        <button type="submit">Rendir Capital</button>
-    </form>
-</div>
-<script src="js/rendir_capital.js"></script>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">Panel Financiero</h1>
+    
+            <!-- Menú hamburguesa para pantallas pequeñas -->
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <!-- Menú de navegación normal para pantallas grandes -->
+            <nav id="nav-menu">
+                <div class="nav-item"><a href="index.html">Inicio</a></div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Préstamos</a>
+                    <div class="dropdown-menu">
+                        <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                        <a href="prestamos_personales.html">Préstamos Personales</a>
+                        <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                        <a href="vencidos.html">Vencidos</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle">Caja e Inversiones</a>
+                    <div class="dropdown-menu">
+                        <a href="hoja_diaria.html">Hoja Diaria</a>
+                        <a href="inversiones.html">Inversiones</a>
+                        <a href="caja.html">Caja</a>
+                        <a href="rendir_capital.html">Rendir Capital</a>
+                        <a href="nuevo_pago.html">Nuevo Pago</a>
+                        <a href="nuevo_operador.html">Nuevo Operador</a>
+                        <a href="nueva_inversion.html">Nueva Inversión</a>
+                        <a href="gestion_clientes.html">Gestión de Clientes</a>
+                    </div>
+                </div>
+            </nav>
+    
+            <!-- Menú desplegable en pantallas pequeñas -->
+            <div class="mobile-nav" id="mobile-nav">
+                <a href="index.html">Inicio</a>
+                <a href="detalles_prestamos.html">Detalles Préstamos</a>
+                <a href="prestamos_personales.html">Préstamos Personales</a>
+                <a href="prestamos_tarjeta.html">Préstamos Tarjeta</a>
+                <a href="vencidos.html">Vencidos</a>
+                <a href="hoja_diaria.html">Hoja Diaria</a>
+                <a href="inversiones.html">Inversiones</a>
+                <a href="caja.html">Caja</a>
+                <a href="nueva_inversion.html">Nueva Inversión</a>
+                <a href="gestion_clientes.html">Gestión de Clientes</a>
+            </div>
+        </div>
+    </header>
+    <div class="rendir-capital-container">
+        <h1>Rendir Capital por Operador</h1>
+        <form action="/submit_rendicion" method="POST">
+            <label for="operador">Operador:</label>
+            <select id="operador" name="operador">
+                <!-- Options will be filled by JS -->
+            </select>
+            <label for="monto">Monto:</label>
+            <input type="number" id="monto" name="monto" required>
+            <button type="submit">Rendir Capital</button>
+        </form>
+    </div>
+    <script src="js/rendir_capital.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>

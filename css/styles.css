@@ -1608,38 +1608,287 @@ button:hover {
     .mobile-nav.open {
         display: flex;
     }
-}
-/* Estilos para Rendir Capital por Operador */
-.rendir-capital-container {
+}/* Nuevo Pago - Mobile First Approach */
+.nuevo-pago-container {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
     padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
-.rendir-capital-container .form-container {
-    background-color: white;
+.nuevo-pago-container h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.nuevo-pago-container form {
+    background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.rendir-capital-container h1 {
-    color: #333;
+.nuevo-pago-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
-.rendir-capital-container form {
+.nuevo-pago-container input, .nuevo-pago-container select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.nuevo-pago-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.nuevo-pago-container button:hover {
+    background-color: #218838;
+}
+
+/* Larger screen adjustments */
+@media (min-width: 768px) {
+    .nuevo-pago-container {
+        max-width: 700px;
+    }
+}
+
+/* Nuevo Operador - Mobile First Approach */
+.nuevo-operador-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.nuevo-operador-container h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.nuevo-operador-container form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nuevo-operador-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.nuevo-operador-container input, .nuevo-operador-container select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.nuevo-operador-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.nuevo-operador-container button:hover {
+    background-color: #0069d9;
+}
+
+/* Larger screen adjustments */
+@media (min-width: 768px) {
+    .nuevo-operador-container {
+        max-width: 700px;
+    }
+}
+
+/* Nueva Inversión - Mobile First Approach */
+.nueva-inversion-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.nueva-inversion-container h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.nueva-inversion-container form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nueva-inversion-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.nueva-inversion-container input, .nueva-inversion-container select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.nueva-inversion-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.nueva-inversion-container button:hover {
+    background-color: #ff6600;
+}
+
+/* Larger screen adjustments */
+@media (min-width: 768px) {
+    .nueva-inversion-container {
+        max-width: 700px;
+    }
+}
+
+/* Gestión de Clientes - Mobile First Approach */
+.gestion-clientes-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.gestion-clientes-container h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.gestion-clientes-container table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 20px;
 }
 
-.rendir-capital-container label {
-    margin-bottom: 10px;
+.gestion-clientes-container th, .gestion-clientes-container td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.gestion-clientes-container thead {
+    background-color: #f4f4f4;
+}
+
+.gestion-clientes-container tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Table responsiveness for small screens */
+.gestion-clientes-container {
     display: block;
+    overflow-x: auto;
+}
+
+.gestion-clientes-container table {
+    width: 100%;
+    display: table;
+}
+
+/* Larger screen adjustments */
+@media (min-width: 768px) {
+    .gestion-clientes-container {
+        max-width: 800px;
+    }
+}
+
+/* Rendir Capital por Operador - Mobile First Approach */
+.rendir-capital-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.rendir-capital-container h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.rendir-capital-container form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rendir-capital-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .rendir-capital-container input, .rendir-capital-container select {
-    padding: 10px;
     width: 100%;
+    padding: 12px;
     margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
     box-sizing: border-box;
+}
+
+.rendir-capital-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.rendir-capital-container button:hover {
+    background-color: #ff6600;
+}
+
+/* Larger screen adjustments */
+@media (min-width: 768px) {
+    .rendir-capital-container {
+        max-width: 700px;
+    }
 }

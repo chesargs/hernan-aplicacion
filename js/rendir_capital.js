@@ -1,17 +1,24 @@
 
-document.addEventListener('DOMContentLoaded', function() {
-    const select = document.getElementById('operador');
+document.addEventListener('DOMContentLoaded', async function() {
+    const operatorSelect = document.getElementById('operador');
 
-    // Simulated data - should be replaced with actual data retrieval
-    const operators = [
-        { id: '1', name: 'Operador 1' },
-        { id: '2', name: 'Operador 2' }
-    ];
+    // Fetch operators data
+    const fetchOperators = async () => {
+        const response = await fetch('data/operadores.json');
+        return await response.json();
+    };
 
-    operators.forEach(op => {
-        const option = document.createElement('option');
-        option.value = op.id;
-        option.textContent = op.name;
-        select.appendChild(option);
-    });
+    // Populate operator dropdown
+    const populateOperatorDropdown = async () => {
+        const operadores = await fetchOperators();
+        operadores.forEach(operator => {
+            const option = document.createElement('option');
+            option.value = operator.id_operador;
+            option.textContent = operator.nombre;
+            operatorSelect.appendChild(option);
+        });
+    };
+
+    // Initialize dropdown on page load
+    populateOperatorDropdown();
 });

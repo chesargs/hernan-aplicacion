@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>${cliente ? cliente.nombre : 'Desconocido'}</td>
-                
-                
+                <td>${prestamo.monto.toLocaleString()}</td>
+                <td>${prestamo.plazo !== undefined ? prestamo.plazo + ' ' + prestamo.unidad : 'N/A'}</td>
                 <td>${!isNaN(saldoPendiente) ? saldoPendiente.toLocaleString() : 'N/A'}</td>
                 <td>${prestamo.fecha_vencimiento ? prestamo.fecha_vencimiento : 'N/A'}</td>
                 <td><button class="btn">+ Pago</button></td>
@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
             overdueLoansBody.appendChild(row);
         });
     };
-/* <td>${prestamo.monto.toLocaleString()}</td> 
-<td>${prestamo.plazo !== undefined ? prestamo.plazo + ' ' + prestamo.unidad : 'N/A'}</td>*/
+
     initializePage();
 });
