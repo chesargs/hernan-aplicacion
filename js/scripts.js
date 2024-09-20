@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>Rol: ${operator.rol}</p>
             <p>Total Inversiones: ${operator.inversiones.reduce((sum, inv) => sum + inv.monto, 0)}</p>
             <p>Total Préstamos: ${totalLoans}</p>
-            <p>Total Pagos Recibidos (Paid Only): ${totalPayments}</p>
+            <p>Total Pagos Recibidos: ${totalPayments}</p>
         `;
     
         totalMoneyDisplay.innerHTML = `

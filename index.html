@@ -145,11 +145,6 @@
                 </div>
                 <div class="buttons-container">
                     <button id="new-loan-button">Nuevo Préstamo</button>
-                    <script>
-                        document.getElementById('new-loan-button').addEventListener('click', function() {
-                            window.location.href = 'prestamos_personales.html';
-                        });
-                    </script>
                     <button id="new-pay-button">Agregar Pago</button>
                 </div>
                 <!-- <div id="totals">
@@ -163,6 +158,11 @@
             <p>&copy; 2024 Panel Financiero. .</p>
         </div>
     </footer>
+    <script>
+        document.getElementById('new-loan-button').addEventListener('click', function() {
+            window.location.href = 'prestamos_personales.html';
+        });
+    </script>
     <script src="js/scripts.js"></script>
     <script src="js/header.js"></script> <!-- Include the header.js file -->
 </body>
