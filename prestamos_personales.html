@@ -62,54 +62,46 @@
             </div>
         </div>
     </header>
-    <main class="container">
-        <h1>Registrar Préstamo Personal</h1>
-        <!-- <h2>Registrar Préstamo Personal</h2> -->
-        <form id="personal-loan-form">
+    <main class="prestamo-container">
+        <h1 class="prestamo-title">Registrar Préstamo Personal</h1>
+        <form id="personal-loan-form" class="prestamo-form">
 
-            <div class="form-group">
-                <label for="client-name">Nombre del Cliente:</label>
-                <input type="text" id="client-name" name="client-name" class="form-control">
+            <div class="prestamo-form-group">
+                <label for="client-name" class="prestamo-label">Nombre del Cliente:</label>
+                <input type="text" id="client-name" name="client-name" class="prestamo-input">
             </div>
-            <div class="form-group">
-                <label for="loan-amount">Monto del Préstamo:</label>
-                <input type="number" id="loan-amount" name="loan-amount" class="form-control">
+            <div class="prestamo-form-group">
+                <label for="loan-amount" class="prestamo-label">Monto del Préstamo:</label>
+                <input type="number" id="loan-amount" name="loan-amount" class="prestamo-input">
             </div>
-            <div class="form-group">
-                <label for="interest-rate">Tasa de Interés:</label>
-                <input type="number" id="interest-rate" name="interest-rate" class="form-control">
+            <div class="prestamo-form-group">
+                <label for="interest-rate" class="prestamo-label">Tasa de Interés:</label>
+                <input type="number" id="interest-rate" name="interest-rate" class="prestamo-input">
             </div>
-            <div class="form-group">
-                <label for="payment-frequency">Frecuencia de Pago:</label>
-                <select id="payment-frequency" name="payment-frequency" class="form-control">
+            <div class="prestamo-form-group">
+                <label for="payment-frequency" class="prestamo-label">Frecuencia de Pago:</label>
+                <select id="payment-frequency" name="payment-frequency" class="prestamo-select">
                     <option value="monthly">Diaria</option>
                     <option value="bi-weekly">Semanal</option>
                     <option value="bi-weekly">Mensual</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label for="loan-term">Plazo:</label>
-                <input type="text" id="loan-term" name="loan-term" class="form-control">
+            <div class="prestamo-form-group">
+                <label for="loan-term" class="prestamo-label">Plazo:</label>
+                <input type="text" id="loan-term" name="loan-term" class="prestamo-input">
             </div>
-            <div class="form-group">
-
-                <label for="client-name">Cliente: </label>
-                <input type="text" id="client-name" name="client-name" class="form-control">
-            </div>
-
-            </div>
-            <div class="form-group">
-                <label for="payment-method">Método de Pago:</label>
-                <select id="payment-method" name="payment-method" class="form-control">
+            <div class="prestamo-form-group">
+                <label for="payment-method" class="prestamo-label">Método de Pago:</label>
+                <select id="payment-method" name="payment-method" class="prestamo-select">
                     <option value="cash">Efectivo</option>
                     <option value="transfer">Transferencia</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label for="loan-purpose">Propósito del Préstamo:</label>
-                <textarea id="loan-purpose" name="loan-purpose" class="form-control"></textarea>
+            <div class="prestamo-form-group">
+                <label for="loan-purpose" class="prestamo-label">Propósito del Préstamo:</label>
+                <textarea id="loan-purpose" name="loan-purpose" class="prestamo-textarea"></textarea>
             </div>
-            <button type="submit" class="btn">Registrar Préstamo</button>
+            <button type="submit" class="prestamo-btn-submit">Registrar Préstamo</button>
         </form>
     </main>
     <footer>

@@ -76,29 +76,31 @@
                 <button id="render-button"><i class="fas fa-sync"></i> Rendir</button>
             </div>
             <div class="loans-payments">
-                <div class="section-header">
-                    <h2><i class="fas fa-cash-register"></i> Préstamos Otorgados (Efectivo)</h2>
-                </div>
-                <div class="card">
-                    <table id="cash-loans">
-                        <thead>
-                            <tr>
-                                <th><i class="fas fa-user"></i> Cliente</th>
-                                <th><i class="fas fa-dollar-sign"></i> Monto</th>
-                                <th><i class="fas fa-percentage"></i> Tasa</th>
-                                <th><i class="fas fa-calendar-alt"></i> Fecha de Inicio</th>
-                                <th><i class="fas fa-clock"></i> Plazo</th>
-                                <th><i class="fas fa-info-circle"></i> Estado</th>
-                            </tr>
-                        </thead>
-                        <tbody id="cash-loans-body">
-                            <div class="search-bar-cash">
-                                <input type="text" placeholder="Search by client name">
-                                <button><i class="fas fa-search"></i></button>
-                            </div>
-                            <!-- Las filas de préstamos se poblarán aquí -->
-                        </tbody>
-                    </table>
+                <div class="prestamos-efectivo-container">
+                    <div class="section-header">
+                        <h2><i class="fas fa-cash-register"></i> Préstamos Otorgados (Efectivo)</h2>
+                    </div>
+                    <div class="card">
+                        <table id="cash-loans">
+                            <thead>
+                                <tr>
+                                    <th><i class="fas fa-user"></i> Cliente</th>
+                                    <th><i class="fas fa-dollar-sign"></i> Monto</th>
+                                    <th><i class="fas fa-percentage"></i> Tasa</th>
+                                    <th><i class="fas fa-calendar-alt"></i> Fecha de Inicio</th>
+                                    <th><i class="fas fa-clock"></i> Plazo</th>
+                                    <th><i class="fas fa-info-circle"></i> Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cash-loans-body">
+                                <div class="search-bar-cash">
+                                    <input type="text" placeholder="Search by client name">
+                                    <button><i class="fas fa-search"></i></button>
+                                </div>
+                                <!-- Las filas de préstamos se poblarán aquí -->
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
 
                 <div class="section-header">
@@ -116,11 +118,11 @@
                                 <th><i class="fas fa-info-circle"></i> Estado</th>
                             </tr>
                         </thead>
-                        <div class="search-bar-card">
-                            <input type="text" placeholder="Search by client name">
-                            <button><i class="fas fa-search"></i></button>
-                        </div>
                         <tbody id="card-loans-body">
+                            <div class="search-bar-card">
+                                <input type="text" placeholder="Search by client name">
+                                <button><i class="fas fa-search"></i></button>
+                            </div>
                             <!-- Las filas de préstamos se poblarán aquí -->
                         </tbody>
                     </table>
