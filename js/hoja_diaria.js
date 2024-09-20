@@ -1,4 +1,20 @@
-// Fetch and display cobros (payments) for the selected date
+// Obtener datos de los préstamos desde GitHub Pages (URL de los JSON)
+function obtenerPrestamos() {
+    return fetch('https://chesargs.github.io/hernan-aplicacion/data/prestamos.json')
+        .then(response => response.json())
+        .then(data => data)
+        .catch(error => console.error('Error fetching loans:', error));
+}
+
+// Obtener datos de los clientes desde GitHub Pages (URL de los JSON)
+function obtenerClientes() {
+    return fetch('https://chesargs.github.io/hernan-aplicacion/data/clientes.json')
+        .then(response => response.json())
+        .then(data => data)
+        .catch(error => console.error('Error fetching clients:', error));
+}
+
+// Mostrar cobros por fecha seleccionada
 function mostrarCobrosPorFecha(fecha) {
     obtenerPrestamos().then(prestamos => {
         obtenerClientes().then(clientes => {
@@ -8,7 +24,7 @@ function mostrarCobrosPorFecha(fecha) {
             prestamos.forEach(prestamo => {
                 prestamo.cobros.forEach(cobro => {
                     if (cobro.fecha_cobro === fecha && !cobro.pagado) {
-                        // Encontrar el nombre del cliente en base a su ID
+                        // Encontrar el nombre del cliente basado en el ID
                         const cliente = clientes.find(c => c.id_cliente === prestamo.id_cliente);
 
                         cobrosDelDia.push({
@@ -43,34 +59,13 @@ function mostrarCobrosPorFecha(fecha) {
     });
 }
 
-// Marcar un cobro como pagado y actualizar el JSON
+// Marcar cobro como pagado y actualizar el JSON (en local o en el servidor si fuera necesario)
 function marcarComoPagado(idPrestamo, idCobro) {
-    const prestamo = obtenerPrestamoPorId(idPrestamo);
+    const prestamo = obtenerPrestamoPorId(idPrestamo); // Asegúrate de tener esta función
     const cobro = prestamo.cobros.find(c => c.id_cobro === idCobro);
     if (cobro) {
         cobro.pagado = true;
         actualizarPrestamo(prestamo);
         mostrarCobrosPorFecha(document.querySelector('.flatpickr').value); // Refrescar la lista
     }
-}
-
-// Obtener datos de los préstamos desde un JSON
-function obtenerPrestamos() {
-    return fetch('/data/prestamos.json')
-        .then(response => response.json())
-        .then(data => data)
-        .catch(error => console.error('Error fetching loans:', error));
-}
-
-// Obtener datos de los clientes desde un JSON
-function obtenerClientes() {
-    return fetch('/data/clientes.json')
-        .then(response => response.json())
-        .then(data => data)
-        .catch(error => console.error('Error fetching clients:', error));
-}
-
-// Actualizar la información del préstamo en el JSON o el servidor
-function actualizarPrestamo(prestamo) {
-    console.log('Updating prestamo:', prestamo);
 }
